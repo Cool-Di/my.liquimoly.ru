@@ -1,0 +1,12 @@
+Алгоритм импорта учетных записей менеджеров и сотрудников из старой клиентской зоны
+
+1. С помощью http://company.liquimoly.ru/phpmyadmin/ получить CSV-файл (формат - CSV для MS Excel) содержащий email, хэш пароля:
+
+    SELECT `email`, `pass`  FROM `admin_mh`.`users`
+    WHERE `id` < 10000 AND `pass` NOT IN ('NEW USER','DELETED', 'passdisabled', 'NEW_USER', 'NULL', 'DISABLED')
+
+2. Разместить полученный файл на сервере 95.213.159.146
+
+3. В консоли с подключением к 95.213.159.146 выполнить команду:
+
+    /var/www/my.liquimoly.ru/yii usersimport/import-old-manager <файл>

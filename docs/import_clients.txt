@@ -1,0 +1,13 @@
+Алгоритм импорта реквизитов учетных записей клиентов из старой клиентской зоны.
+
+1. С помощью http://company.liquimoly.ru/phpmyadmin/ получить CSV-файл (формат - CSV для MS Excel) содержащий ПКК, email, хэш пароля:
+
+    SELECT `id` ,  `email` ,  `pass` FROM  `admin_mh`.`users`
+    WHERE pass NOT IN ( 'NEW USER', 'passdisabled', 'NULL', 'BLOCKED', 'DISABLED' ) AND email <>  '' AND `id` >= 10000
+
+2. Разместить полученный файл на сервере 95.213.159.146.
+
+3. В консоли с подключением к 95.213.159.146 выполнить команду:
+
+    /var/www/my.liquimoly.ru/yii usersimport/import-old-pass <файл>
+

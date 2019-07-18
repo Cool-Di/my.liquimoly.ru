@@ -1,0 +1,123 @@
+{
+  "choice": {
+    "position": "relative",
+    "width": "900px",
+    "max-height": "900px",
+    "font": "normal 18px OpenSans",
+    "color": "#000000",
+    "border": "1px solid #ff0000",
+    "padding": "15px",
+    "margin": "0",
+    "overflow": "auto"
+  },
+  "ui_block": {
+    "position": "absolute",
+    "visibility": "hidden",
+    "height": "auto",
+    "left": "0",
+    "top": "0",
+    "bottom": "0",
+    "right": "0",
+    "background-color": "#F0F0F0",
+    "opacity": "0.5"
+  },
+  "ui_spinner": {
+    "background": "url('http://my.liquimoly.ru/oilapi/spinner.gif') no-repeat center center transparent",
+    "width": "100%",
+    "height": "100%"
+  },
+  "select_field": {
+    "width": "100%",
+    "font": "normal 16px OpenSans",
+    "padding": "0",
+    "margin": "0 0 5px 0"
+  },
+  "field_header":{
+    "display": "block"
+
+  },
+  "input_field": {
+    "width": "100%",
+    "margin": "0 0 5px 0"
+  },
+  "select_list": {
+    "list-style": "none",
+    "padding": "0",
+    "margin": "5px 0 0 0"
+  },
+  "a_link": {
+    "padding": "1px",
+    "margin": "1px 0",
+    "border-bottom": "1px dashed #2b2b2b",
+    "cursor": "pointer",
+    "font": "normal 12px OpenSans"
+  },
+  "component_list": {
+    "list-style": "none",
+    "padding": "0",
+    "margin": "0"
+  },
+  "component_header": {
+    "display": "block",
+    "cursor": "pointer",
+    "background-color": "#4F5155",
+    "min-height": "20px",
+    "color": "#FFFFFF",
+    "padding": "1px 4px",
+    "margin": "0px"
+  },
+  "component_fragment": {
+    "padding": "0",
+    "margin": "0"
+  },
+  "component_element": {
+    "padding": "2px 0 0 0"
+  },
+  "component_desc": {
+    "padding": "10px 20px 0"
+  },
+  "component_property": {
+    "list-style": "none",
+    "padding": "0",
+    "margin": "0",
+    "float": "left",
+    "width": "50%"
+  },
+  "step_header": {
+    "font-weight": "bold"
+  },
+  "component_product": {
+    "padding": "10px",
+    "margin": "5px 0",
+    "border": "2px dashed #4b5455"
+  },
+  "description_product": {
+    "padding": "0 0 15px 0",
+    "border-bottom": "0px solid #4b5455"
+  },
+  "image_product": {
+    "width": "15%",
+    "height": "15%",
+    "border": "0",
+    "float": "left",
+    "margin": "0 5px 5px 0"
+  },
+  "link_product": {
+    "display": "block",
+    "margin": "5px 0 5px 0"
+  },
+  "text_right": {
+    "text-align": "right"
+  },
+  "clr": {
+    "width": "100%",
+    "clear": "both"
+  },
+  "error": {
+    "color": "#ff0000"
+  },
+  "message": {
+    "margin": "0",
+    "color": "#ff0000"
+  }
+}

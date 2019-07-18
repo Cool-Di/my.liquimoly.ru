@@ -1,0 +1,76 @@
+.cat_img {	border-radius: 75px;
+	margin-right: 10px;
+}
+.category img {
+	float: left;	vertical-align: middle;
+}
+.category {	margin-left: 10px;
+	margin-top: 20px;
+	width: 400px;
+	display: inline-block;
+	vertical-align: top;
+}
+@media screen and (max-width: 700px) {	.category {
+		width: 100%;
+	}
+	.p_text {
+		float: left;
+	}
+}
+.c_link {
+	display: table;
+	max-width: 300px;
+	height: 75px;
+	float: left;
+}
+.c_link_td {	display: table-cell;
+	vertical-align: middle;
+}
+.all_products {	max-width: 1100px;
+}
+.product {	clear: both;
+	width: 100%;
+}
+.p_img {	margin-right: 15px;
+	margin-bottom: 25px;
+	width: 150px;
+	float: left;
+}
+.p_text {
+    display: inline-block;
+    float: left;
+    max-width: 900px;
+	width: 100%;
+}
+.p_link {	font-size: 18px;
+	text-decoration: underline;
+}
+.p_text p {
+	margin-top: 10px;
+	color: #808080;
+}
+.p_info{	float: left;
+	max-widht: 450px;
+}
+.p_info p {	margin-bottom: 0px;
+	margin-top: 2px;
+}
+.p_order {	float: right;
+	text-align: right;
+	max-widht: 450px;
+}
+.p_count {	width: 45px;
+}
+.p_fasovka {	font-size: 12px;
+	color: #808080;
+	text-decoration: none;
+	border-bottom: 1px dashed #808080;
+}
+.p_order p {	margin-bottom: 3px;
+}
+.d_fasovka {	width: 100%;
+	border: 1px #808080 solid;
+}
+.price {	font-size: 16px;
+	margin-left: 15px;
+}

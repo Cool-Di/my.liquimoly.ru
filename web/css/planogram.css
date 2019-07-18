@@ -1,0 +1,27 @@
+.stelaj {
+    width: 350px;
+    height: 560px;
+    border-left: 5px #ECE8E8 solid;
+    border-right: 5px #ECE8E8 solid;
+}
+
+#my_canvas {
+    padding: 50px;
+    height: 680px;
+    width: 500px;
+    background: #FFFFFF;
+}
+
+.polka {
+    height: 100px;
+    max-height: 100px;
+    width: 100%;
+    border-top: 5px #ECE8E8 solid;
+    position: relative;
+}
+
+.item {
+    position: absolute;
+    display: inline-block;
+    z-index: 99;
+}
